@@ -32,5 +32,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'omniauth'
   spec.add_dependency 'omniauth-oauth2'
-  spec.add_dependency 'alipay', '~> 0.15.0'
+  spec.add_dependency 'alipay', '~> 0.16.0'
 end
