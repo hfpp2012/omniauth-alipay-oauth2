@@ -97,6 +97,7 @@ module OmniAuth
           alipay_public_key: options.alipay_public_key,
           sign_type: 'RSA2'
         )
+
         params = alipay_client.sdk_execute(
           method: 'alipay.system.oauth.token',
           grant_type: 'authorization_code',
